@@ -10,7 +10,6 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("ECG AI Diagnosis System")
 st.markdown("""
 <div style="text-align: center; padding: 20px 0;">
     <h1>ECG AI Diagnosis System</h1>
