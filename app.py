@@ -1,8 +1,8 @@
 import streamlit as st 
 import numpy as np 
 import matplotlib.pyplot as plt 
-import pandas as pd from tensorflow.keras.models 
-import load_model
+import pandas as pd 
+from tensorflow.keras.models import load_model
 st.set_page_config(
     page_title="ECG AI Diagnosis System", 
     page_icon="❤️", 
