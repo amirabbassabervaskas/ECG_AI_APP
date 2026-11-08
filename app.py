@@ -31,14 +31,10 @@ uploaded_file = st.file_uploader(
 )
 if uploaded_file is not None: 
     try:
-                ecg = np.load(uploaded_file)
-
-    if ecg.shape != (1000, 12):
-        st.error(
-            f"Incorrect ECG shape: {ecg.shape}. "
-            "Expected (1000, 12)."
-        )
-        st.stop()
+        ecg = np.load(uploaded_file)
+        if ecg.shape != (1000, 12):
+            st.error(f"Incorrect ECG shape: {ecg.shape}. "Expected (1000, 12).")
+            st.stop()
 
     if not np.issubdtype(ecg.dtype, np.number):
         st.error("ECG data must be numeric.")
