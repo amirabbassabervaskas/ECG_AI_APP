@@ -184,19 +184,6 @@ if uploaded_file is not None:
 
 st.markdown("---")
 
-st.markdown("""
-**Project Developer:** Amirabbas Sabervaskas
-.markdown("""
-**Project Third-Year Medical Student
-down("""
-**ProjecMedical University of Sofia
-own("""
-**ProjBulgaria
-wn("---")
-
-st.markdowArtificial Intelligence in Cardiology
-Project DeveloECG AI Diagnosis System
-arkdown("""2026
-""")
-
+st.markdown("---")
+st.markdown( "Project Developer: Amirabbas Sabervaskas  \n" "Academic Position: Third-Year Medical Student  \n" "University: Medical University of Sofia  \n" "Country: Bulgaria  \n" "Research Field: Artificial Intelligence in Cardiology  \n" "Project: ECG AI Diagnosis System  \n" "Year: 2026" )
 st.caption("Academic Research Project")
