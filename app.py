@@ -181,3 +181,22 @@ if uploaded_file is not None:
         st.error(
             f"ECG Analysis Error: {e}"
         )
+
+st.markdown("---")
+
+st.markdown("""
+**Project Developer:** Amirabbas Sabervaskas
+.markdown("""
+**Project Third-Year Medical Student
+down("""
+**ProjecMedical University of Sofia
+own("""
+**ProjBulgaria
+wn("---")
+
+st.markdowArtificial Intelligence in Cardiology
+Project DeveloECG AI Diagnosis System
+arkdown("""2026
+""")
+
+st.caption("Academic Research Project")
