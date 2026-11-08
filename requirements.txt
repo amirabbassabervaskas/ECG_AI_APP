@@ -1,2 +1,5 @@
 streamlit
 tensorflow
+matplotlib
+pandas
+numpy
