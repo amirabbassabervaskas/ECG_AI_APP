@@ -29,9 +29,9 @@ uploaded_file = st.file_uploader(
     "Upload ECG File (.npy)", 
     type=["npy"] 
 )
-if uploaded_file is not None:
-try:
-    ecg = np.load(uploaded_file)
+if uploaded_file is not None: 
+    try:
+                ecg = np.load(uploaded_file)
 
     if ecg.shape != (1000, 12):
         st.error(
