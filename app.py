@@ -10,7 +10,8 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("ECG AI Diagnosis System")st.markdown("""
+st.title("ECG AI Diagnosis System")
+st.markdown("""
 <div style="text-align: center; padding: 10px;">
     <h3>Developed by Amirabbas Sabervaskas</h3>
     <p><b>Medical Student | AI Researcher</b></p>
