@@ -6,7 +6,7 @@ model = load_model("ecg_multilabel_1dcnn.h5")
 
 classes = [
     "CD",
-    "HYP"
+    "HYP",
     "MI",
     "NORM",
     "STTC"
