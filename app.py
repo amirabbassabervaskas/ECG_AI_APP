@@ -36,11 +36,11 @@ if uploaded_file is not None:
             st.error(f"Incorrect ECG shape: {ecg.shape}. Expected (1000, 12).")
             st.stop()
 
-    if not np.issubdtype(ecg.dtype, np.number):
+       if not np.issubdtype(ecg.dtype, np.number):
         st.error("ECG data must be numeric.")
         st.stop()
 
-    if not np.all(np.isfinite(ecg)):
+       if not np.all(np.isfinite(ecg)):
         st.error("ECG contains invalid values.")
         st.stop()
 
