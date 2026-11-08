@@ -12,7 +12,8 @@ st.set_page_config(
 
 st.title("ECG AI Diagnosis System")
 st.markdown("""
-<div style="text-align: center; padding: 10px;">
+<div style="text-align: center; padding: 20px 0;">
+    <h1>ECG AI Diagnosis System</h1>
     <h3>Developed by Amirabbas Sabervaskas</h3>
     <p><b>Medical Student | AI Researcher</b></p>
     <p>Research Area: Artificial Intelligence in Cardiology</p>
