@@ -213,6 +213,10 @@ if uploaded_image is not None:
         use_container_width=True
     )
 
+    gray_image = cv2.cvtColor(
+    np.array(image),
+    cv2.COLOR_RGB2GRAY
+)
     st.info(
         "Image received. ECG signal extraction and "
         "diagnostic analysis will be performed in the next stage."
