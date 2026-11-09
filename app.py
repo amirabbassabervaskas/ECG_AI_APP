@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import cv2
 from tensorflow.keras.models import load_model
 
 st.set_page_config(
