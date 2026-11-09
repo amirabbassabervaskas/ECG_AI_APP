@@ -183,6 +183,39 @@ if uploaded_file is not None:
         )
 
 st.markdown("---")
+import streamlit as st
+from PIL import Image
+
+st.markdown("---")
+
+st.header("ECG Image Analysis")
+
+st.write(
+    "Upload a 12-lead ECG image for visual analysis."
+)
+
+uploaded_image = st.file_uploader(
+    "Upload ECG Image",
+    type=["png", "jpg", "jpeg"],
+    key="ecg_image_upload"
+)
+
+if uploaded_image is not None:
+
+    image = Image.open(uploaded_image).convert("RGB")
+
+    st.success("ECG Image Uploaded Successfully")
+
+    st.image(
+        image,
+        caption="Uploaded 12-Lead ECG",
+        use_container_width=True
+    )
+
+    st.info(
+        "Image received. ECG signal extraction and "
+        "diagnostic analysis will be performed in the next stage."
+    )
 
 st.markdown("---")
 st.markdown( "Project Developer: Amirabbas Sabervaskas  \n" "Academic Position: Third-Year Medical Student  \n" "University: Medical University of Sofia  \n" "Country: Bulgaria  \n" "Research Field: Artificial Intelligence in Cardiology  \n" "Project: ECG AI Diagnosis System  \n" "Year: 2026" )
