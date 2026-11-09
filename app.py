@@ -172,8 +172,7 @@ if uploaded_file is not None:
 
         st.warning(
             "Research and educational use only. "
-            "AI predictions are not a substitute "
-            "for professional medical diagnosis."
+           
         )
 
     except Exception as e:
